@@ -959,7 +959,7 @@ textarea{
 }
 
 /* For medium devices */
-@media screen and (max-width: 570px){
+/* @media screen and (max-width: 570px){
   .home_content{
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -983,7 +983,7 @@ textarea{
     grid-template-columns: .6fr;
     justify-content: center;
   }
-}
+} */
 @media screen and (min-width: 768px){
   .container{
     margin-left: auto;
