@@ -80,6 +80,7 @@ body.dark-theme{
   --container-color: hsl(var(--hue-color), 29%, 16);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  --container-color: hsl(var(--hue-color), 30%, 10%);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -959,7 +960,7 @@ textarea{
 }
 
 /* For medium devices */
-/* @media screen and (max-width: 570px){
+@media screen and (min-width: 570px){
   .home_content{
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -983,7 +984,7 @@ textarea{
     grid-template-columns: .6fr;
     justify-content: center;
   }
-} */
+}
 @media screen and (min-width: 768px){
   .container{
     margin-left: auto;
