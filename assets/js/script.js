@@ -125,8 +125,8 @@ function sendMail() {
         message: document.getElementById("message").value
     }
     // console.log(document.getElementById("full_name").value,document.getElementById("email_id").value,document.getElementById("message").value)
-
-    emailjs.send("service_liaf60n", "template_tu2ho2j", params)
+    // use your emailjs service id and template id
+    emailjs.send("serviceId", "templateID", params)
         .then(function (result) {
             alert("thanks " + document.getElementById("full_name").value);
             console.log('SUCCESS!');
